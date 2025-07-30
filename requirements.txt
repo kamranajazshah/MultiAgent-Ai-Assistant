@@ -1,0 +1,12 @@
+langchain_openai 
+streamlit 
+duckduckgo-search 
+sqlalchemy 
+dotenv 
+chromadb
+langchain
+tools
+langchain_experimental
+langchain_community
+fastapi
+pydantic
