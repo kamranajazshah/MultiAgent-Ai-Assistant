@@ -18,7 +18,7 @@ python=PythonREPLTool()
 @tool
 def get_weather(city:str)->str:
  """ this tool is used to get weather updated from anywhere"""
- url = f"https://api.weatherstack.com/current?access_key=a05fb6815dae4115289ff98aa769b663&query={city}"
+ url = f"https://api.weatherstack.com/current?access_key=&query={city}"
  response=requests.get(url=url)
  return response.json()
 
